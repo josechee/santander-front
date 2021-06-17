@@ -64,10 +64,30 @@ button {
     width: 70%;
     text-align: right;
     color: green;
+    margin-top: 45px; 
+    font-family: sans-serif;
+  }
+
+  .navbar > ul>li{
+    margin-right: 25px;
+    color: #025157;
   }
   
   .actions {
     width: 15%;
     text-align: right;
     font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .actions > a {
+    color: #67b54b;
+  }
+
+  .actions > button {
+    color: white;
+    background-color: #67b54b;
+    margin: 12px 14px 12px 14px;
+    border: none;
+    border-radius: 5px;
   }
