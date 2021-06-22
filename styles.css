@@ -91,3 +91,31 @@ button {
     border: none;
     border-radius: 5px;
   }
+
+  .publicidad {
+    position: absolute;
+    width: 15%;
+    text-align: left;
+    font-size: 14px;    
+    margin-top: 10px; 
+  }
+
+  .publicidad > h2{
+    color: #025157;
+  }
+
+  .publicidad > p{
+    color: #343434;
+  }
+
+  .publicidad>form>input{    
+    width: 85px;
+  }
+
+  .publicidad>form>button{    
+    color:white;
+    background-color: #025157;
+    border: none;
+    font-size: 20px;   
+    border-radius: 5px;
+  }
