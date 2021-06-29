@@ -1,10 +1,11 @@
 body{
-    background-color: #fffbf7;
-    background-image: url('http://www.solofondos.com/wp-content/uploads/2015/11/tableback.jpg');
+    background-color: #999D9E;
+    /*background-image: url('http://www.solofondos.com/wp-content/uploads/2015/11/tableback.jpg');*/
 }
 
 h1{
     color: rgba(218, 34, 34, 0.767);
+    margin-top: 100px;
     font-size: 100px;
 }
 
@@ -29,18 +30,20 @@ button {
   right: 0;
 }
 
-/*
-.header {
+
+/*.header {
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 0;
+    height: 45px;
     line-height: 45px;
   }*/
   
   .header{
     margin: 40px 20px 0px 20px; 
     font-size: 0;
+    height: 45px;
     line-height: 45px;    
     
 }
@@ -62,20 +65,21 @@ button {
     width: 15%;
   }
   
-  /*
+  
   .navbar {
     width: 70%;
     text-align: center;
     color: green;
-  }*/
+  }
 
+  /*
   .navbar {
     width: 70%;
     text-align: right;
     color: green;
     margin-top: 45px; 
     font-family: sans-serif;
-  }
+  }*/
 
   .navbar > ul>li{
     margin-right: 25px;
@@ -87,8 +91,14 @@ button {
     text-align: right;
     font-size: 14px;
     margin-right: 10px;
+    
   }
 
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
   .actions > a {
     color: #67b54b;
   }
@@ -145,4 +155,61 @@ button {
   }
 
  
- 
+ .features{
+   display: grid;
+   text-align: center;
+   /*grid-template-columns: 300px 300px;*/
+   /*grid-template-columns: repeat(2, 300px);*/
+   /*grid-template-columns: 500px 1fr;*/
+   /*grid-template-columns: 1fr 1fr;*/   
+
+  /*3.1 grid-template-rows: 330px 1fr;*/
+
+  /*grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 330px);;*/
+
+  grid-template: repeat(2, 1fr) / repeat(2, 330px);
+
+  justify-content: center;
+ }
+
+ .feature-art{
+   background-color: lightcyan;
+   margin: 10px;
+   width: 40%;
+   height: 50px;
+ }
+
+
+ /*Sesion 5*/
+ /** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  .navbar, .actions{
+    display: none;
+  }
+  h1{
+    font-size: 30px;
+    margin-top: 80px;
+  }
+  
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+
+} 
