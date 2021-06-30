@@ -45,20 +45,18 @@ button {
     font-size: 0;
     height: 45px;
     line-height: 45px;    
-    
+    font-family: sans-serif;
 }
-
-
-  li {
-    display: inline;
-  }
-  
   .header > * {
     display: inline-block;
     font-size: 16px;
     vertical-align: middle;
     height: 100%;
     line-height: 45px;   
+  }
+  
+  li {
+    display: inline;
   }
   
   .logo {
@@ -89,14 +87,13 @@ button {
   .actions {
     width: 15%;
     text-align: right;
-    font-size: 14px;
-    margin-right: 10px;
-    
+    font-size: 14px;      
   }
 
   .actions > * {
     margin-right: 10px;
     margin-left: 10px;
+    
   }
   
   .actions > a {
@@ -106,55 +103,95 @@ button {
   .actions > button {
     color: white;
     background-color: #67b54b;
-    margin: 12px 14px 12px 14px;
+    margin: 0px 14px 12px 14px;
+    padding-bottom: 10px;    
+    padding-top: 18px;
     border: none;
-    border-radius: 5px;
-  }
+    border-radius: 5px;    
 
+  }
+/***INICIO DE SECCION DE PUBLICIDAD****/
 .promo{
   display: flex;
   width: 70%;
   margin: 100px auto;
   align-items: center;
-  
+  /*padding: 0  1rem;*/
 }
 
+.publicidad{
+  display: flex;
+  display: inline-block;
+  padding: 0 1rem;
+  /*margin-left: 20px;*/
+}
   
-  .publicidad > h2{
+.publicidad > h2{
     color: #025157;
-    
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
   }
-
-  .publicidad > p{
+/*Formato del parrafo de la seccion de publicidad*/
+.publicidad > p{
     color: #343434;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+/*p: Start publishing today:*/
+.publicidad > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+.publicidad > form {
+    display: flex;
+    display: inline;    
+} 
+
+.publicidad>form>input{    
+    border: 1px solid #b6b6b6;
+    padding: 16px 10px;
+    width: 40%;   
+    border-radius: 8px;
   }
 
-  .publicidad>form>input{    
-    width: 85px;
-  }
 
-  .publicidad>form>button{    
-    color:white;
+
+.publicidad>form>button{    
+    color:#FFFFFF;
     background-color: #025157;
     border: none;
-    font-size: 20px;   
-    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Open Sans" sans-serif;   
+    border: none;  
+    padding: 16px 10px; 
+    border-radius: 8px;
   }
 
-
+/*
   .imagen{
   display: flex;
   width: 70%;
   margin: 100px auto;
   align-items: center;
+  }*/
+  
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
   }
   
-  .publicidad>img{
+  .explanatory-video > img{
     width: 120px;
-    margin-top: 80%;
+    margin-top: 10px;    
   }
-
+/***FIN DE SECCION DE PUBLICIDAD****/
  
+
  .features{
    display: grid;
    text-align: center;
@@ -180,18 +217,58 @@ button {
    height: 50px;
  }
 
-
+ 
  /*Sesion 5*/
  /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
   .navbar, .actions{
     display: none;
   }
+
   h1{
     font-size: 30px;
     margin-top: 80px;
   }
-  
+
+  .banner >img{
+    width: 100%;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #tituloFormulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .promo{
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video > video{
+    width: 100%;
+  }
+
+  .publicidad > h2 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+
+.publicidad>form>button{     
+  font-size: 15px;  
+}
+
+.publicidad>form>input{     
+  width: 58%;  
+}
+
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
