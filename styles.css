@@ -22,6 +22,7 @@ button {
     background-color: #025157;
 }
 
+/*Que se muestre el menu de navegacion al bajar o navegar la pagina*/
 .fixed-header{
   position: fixed;
   background-color: white;
@@ -64,11 +65,11 @@ button {
   }
   
   
-  .navbar {
+  /*solo este sirve .navbar {
     width: 70%;
     text-align: center;
     color: green;
-  }
+  } */
 
   /*
   .navbar {
@@ -217,13 +218,17 @@ button {
    height: 50px;
  }
 
+ .carousel-inner{
+   max-height: 100%;
+   height: 450px;
+ }
  
  /*Sesion 5*/
  /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar, .actions{
+  /* .navbar, .actions{
     display: none;
-  }
+  } */
 
   h1{
     font-size: 30px;
