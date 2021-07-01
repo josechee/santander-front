@@ -223,6 +223,21 @@ button {
    height: 450px;
  }
  
+ /*Reto 3:sesion 6
+ */
+.badges{
+  text-align: center;
+  color: #025157;
+  font-size: 30px;
+  font-family: "Alegreya", serif;
+}
+
+a {
+  color: #67b54b;
+}
+
+
+
  /*Sesion 5*/
  /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
