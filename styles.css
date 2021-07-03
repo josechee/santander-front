@@ -236,6 +236,154 @@ a {
   color: #67b54b;
 }
 
+/*-------Inicio <section> postworkSesion3_HistoriasDeExito--------*/
+.postworkSesion3_HistoriasDeExito{
+  background-color: #a1d683; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5% 15% 5% 15%;
+  
+}
+
+.reseniaMatcha{
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 100px 0px 0px;
+}
+
+.reseniaMatcha > h2{
+  color: #025157;
+  font-size: 51px;
+  font-family: "Alegreya", serif;
+  line-height: 61px;
+}
+
+.reseniaMatcha > p{
+  color: #343434;
+  font-size: 18px;
+  font-family: sans-serif;
+  
+}
+
+.reseniaMatcha>figure>img{
+  width: 500px;
+  max-width: 100%;  
+}
+
+.reseniaMatcha>button{
+  border: none;
+  border-radius: 5px;
+  padding: 12px 12px 6px 12px;
+}
+
+.carouselHistorias{
+  width: 30%;
+  background-color: white;
+  display: flex;
+  justify-content: center;  
+  margin: 0 1rem;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 100%;
+  align-items: center;/*Apenas se puso*/
+  
+
+}
+
+.carouselHistorias>figure>img{  
+    width: 100%;
+    max-width: 100%;
+    height: 250px;  /*Alto de la imagen*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    display: inline;
+    align-items: flex-start;
+}
+
+.compania{  
+  display: flex;
+  display: inline;
+  align-items: flex-start;
+  background-color: #f9da73;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-left: 65%;
+  margin-top: -22%;
+}
+
+.compania >figure> img{ 
+  max-width: 90%;
+  max-height: 16vw;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35%;  
+  margin-left: 5%;
+}
+
+.cuerpoTarjetaHistorias>*{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10% 0px 10%;
+}
+
+.cuerpoTarjetaHistorias > h4{
+  color: #025157;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+  font-family: "Slabo 12px",  serif;
+}
+
+.cuerpoTarjetaHistorias > h3{
+  font-size: 25px;
+  color: #212529;
+}
+
+.resultados{
+  display: flex;  
+  padding: 5% 5% 5% 10%;
+  
+}
+
+.resultados > img{
+  display: flex;
+  max-width: 25px;
+  max-height: 25px;
+
+  margin-top: 10px;
+}
+
+.resultados > p{
+  padding: 0 1rem;
+}
+
+.footerTarjeta{
+  display: flex;
+  justify-content: center;
+  padding: 25px 0px 30px 0px;
+  width: 100%;
+}
+
+.footerTarjeta > button{
+  border-radius: 5px;
+  width: 80%;  
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;  
+  font-family: sans-serif;
+  
+}
+/*-------Fin </section> postworkSesion3_HistoriasDeExito--------*/
+
+
 
 
  /*Sesion 5*/
@@ -245,6 +393,15 @@ a {
     display: none;
   } */
 
+  /*para que el carousel pase estar abajo y modificar el tamanio de la tarjeta*/
+  .postworkSesion3_HistoriasDeExito{
+    background-color: #a1d683; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5% 15% 5% 15%;
+    
+  }
   h1{
     font-size: 30px;
     margin-top: 80px;
