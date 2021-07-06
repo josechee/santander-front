@@ -1,0 +1,16 @@
+/** _global.scss */
+/*signo de $ que esto es una variable*/
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #ffffff; 
+
+/** fuentes */
+$font-title: "Alegreya", serif; 
+
+
+/* % es decir que puede ocupar culquier oreo elem,ento*/
+/** placeholders */
+%base-title {
+    font-family: $font-title;
+    color: $dark-green-text;
+} 
