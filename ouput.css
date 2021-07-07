@@ -14,6 +14,9 @@
   max-width: unset;
   padding: 5% 10%;
 }
+.blog .title {
+  font-size: 32px;
+}
 .blog .process-list {
   margin-top: 40px;
   margin-bottom: 36px;
@@ -47,6 +50,8 @@
   padding: 12px;
   width: 180px;
   margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
 }
 .blog .col {
   float: left;
@@ -62,7 +67,7 @@
   padding: 20px;
 }
 .blog .col .card .card-body .card-title {
-  font-size: 20px;
+  font-size: 24px;
 }
 .blog .col .card .card-body .metadata {
   font-style: normal;
@@ -75,11 +80,16 @@
 .blog .col .card .card-body .metadata .category {
   color: #67b54b;
 }
+.blog .col .card .card-body .metadata .read-time {
+  color: #979797;
+  font-family: sans-serif;
+}
 .blog .col .card .card-body .card-text {
   font-style: normal;
   line-height: normal;
   color: #4a4a4a;
-  font-size: 14px;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 .blog .col .card .card-body .card-text .read-more {
   color: #4a4a4a !important;
@@ -97,11 +107,13 @@
   border-radius: 50%;
 }
 .blog .col .card .card-body .author p {
+  margin-top: 15px;
   margin-left: 8px;
   font-weight: 600;
   font-size: 14px;
   color: #4a4a4a;
   position: relative;
+  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=ouput.css.map */
