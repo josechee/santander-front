@@ -450,9 +450,49 @@ a {
   font-family: sans-serif;
   
 }
+
 /*-------Fin </section> postworkSesion3_HistoriasDeExito--------*/
 
+/*Inicio del Refactor del postwork sesion4 mix reto 3 sesion6*/
+.funcionamientoDeMatcha{
+  background-color: #fffbf7;
+  padding: 5% 10%;
+  text-align: center;
+}
 
+.funcionamientoDeMatcha > h2{
+  color: #025157;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 400;  
+  margin-bottom: 8px;
+}
+
+.funcionamientoDeMatcha > p{
+   max-width: 60%;
+    color: #46484c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.funcionamientoDeMatcha  > button{
+      font-size: 14px;
+    font-weight: 600;
+    padding-top: 12px 12px 6px 12px;
+    height: 45px;
+    margin-left: 0;
+    border-radius: 8px;
+    margin-top: 6px;
+}
+
+.funcionamientoDeMatcha .container{
+  margin-top: 70px;
+}
+
+/*Fin del Refactor del postwork sesion4 mix reto 3 sesion6*/
 
 
  /*Sesion 5*/
