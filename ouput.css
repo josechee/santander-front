@@ -116,4 +116,15 @@
   font-family: sans-serif;
 }
 
+@media (max-with: 575) {
+  .blog .row {
+    display: grid;
+  }
+  .blog .col {
+    float: left;
+    width: 90%;
+    padding: 5% 0%;
+  }
+}
+
 /*# sourceMappingURL=ouput.css.map */
